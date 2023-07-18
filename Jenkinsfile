@@ -5,7 +5,12 @@ pipeline{
      stage('TEST') {
      steps {
      script{
-        test1
+        def abc = "Hello"
+        def xyz = 10
+
+        print "abc = ${abc}"
+        print abc
+
         }
        }
      }
